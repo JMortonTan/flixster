@@ -22,6 +22,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="7dp"
         android:layout_toEndOf="@+id/ivPoster"
+        android:textColor="#CCCCCC"
         android:textSize="24sp"
         tools:text="Fast Furious Presents: Hobbs Shaw" />
 
@@ -33,5 +34,6 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         android:layout_toEndOf="@+id/ivPoster"
+        android:textColor="#CCCCCC"
         tools:text="A spinoff of The Fate of the Furious, focusing on Johnson's Diplomatic Security Agent Luke Hobbs forming an unlikely alliance with Statham's Deckard Shaw." />
 </RelativeLayout>

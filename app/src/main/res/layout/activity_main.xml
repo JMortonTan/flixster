@@ -6,10 +6,12 @@
     android:layout_height="match_parent"
     android:layout_marginStart="0dp"
     android:layout_marginTop="0dp"
+    android:background="#000000"
     tools:context=".MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvMovies"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:background="#313131" />
 </RelativeLayout>
