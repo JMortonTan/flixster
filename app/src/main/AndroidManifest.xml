@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Flixster">
+        <activity android:name=".DetailActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,5 +20,11 @@
             </intent-filter>
         </activity>
     </application>
+
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
 
 </manifest>
